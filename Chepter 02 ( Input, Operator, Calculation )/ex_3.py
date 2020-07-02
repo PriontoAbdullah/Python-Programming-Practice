@@ -1,0 +1,5 @@
+name,char=input('Enter name & char: ').split(',')
+print(f'Length of Name {len(name)}')
+c=char.lower()
+w=name.lower()
+print(f'Count of String {w.count(c)}')
